@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FAFAFA; /* Neutral Background */
+  color: #2E2E2E; /* Text Color */
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #ffffff; /* Primary Blue */
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.introduction, .resources {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff; /* Secondary Green */
+  border-radius: 8px;
+}
+
+h2 {
+  color: #FF7F50; /* Accent Coral */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #2E2E2E; /* Text Color */
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
